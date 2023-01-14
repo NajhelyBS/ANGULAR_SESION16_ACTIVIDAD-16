@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./chile.component.css']
 })
 export class ChileComponent {
+  pais = "Chile";
 
+  urlimage = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/2560px-Flag_of_Chile.svg.png";
 }

@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class PeruComponent {
 
+pais = "Perú";
+
+urlimage = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1280px-Flag_of_Peru_%28state%29.svg.png"
+
+
+
 }

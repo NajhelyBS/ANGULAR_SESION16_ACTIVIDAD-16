@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./uruguay.component.css']
 })
 export class UruguayComponent {
-
+  pais = "Uruguay"
+ 
+  urlimage = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/2560px-Flag_of_Uruguay.svg.png";
 }

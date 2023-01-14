@@ -4,6 +4,7 @@ import { PeruComponent } from './peru/peru.component';
 import { ChileComponent } from './chile/chile.component';
 import { UruguayComponent } from './uruguay/uruguay.component';
 import { ErrorComponent } from './error/error.component';
+import { RouterLink } from '@angular/router';
 
 
 
@@ -15,7 +16,14 @@ import { ErrorComponent } from './error/error.component';
     ErrorComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterLink,
+  ], 
+  exports: [
+    PeruComponent,
+    ChileComponent,
+    UruguayComponent,
+    ErrorComponent,
   ]
 })
 export class PagesModule { }

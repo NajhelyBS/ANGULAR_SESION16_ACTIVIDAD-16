@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(255, 255, 255);
+    width: 67em;
+}
+nav {
+    background-color: #120968;
+    padding: 1em;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+h5 {
+  font-size: 30px;
+  text-shadow: 1px 2px 4px #8b7e05;
+}
+
+#pais {
+  font-weight: 900;
+  color: white;
+}
+#container {
+    padding-top: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+}
+
+#parrafo {
+    color: #120968;
+    text-align: justify;
+    text-shadow: 1px 2px 2px rgba(26, 238, 210, 0.651);
+    font-weight: 700;
+}
+
+.page {
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 18em;
+    height: 16em;
+  }
+  
+  .wrapper {
+    position: relative;
+    width: 18em;
+    height: 12em;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    box-shadow: #195ae7a2 0px 0px 6px 4px;
+
+  }
+  
+  .wrapper:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .front,
+  .back {
+    padding: 2em;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 3px #0719bb dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    cursor: pointer;
+    font-weight: 560;
+    color: rgb(0, 0, 0);
+  }
+  .front {
+    background-color: #e7d2198e ;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    background-color:rgba(61, 51, 197, 0.384);
+  }
+ 
